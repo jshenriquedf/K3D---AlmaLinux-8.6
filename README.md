@@ -6,8 +6,8 @@ Para esse ambiente de teste, foi utilizado o VirtualBox com redirecionamento de 
 ### Atualização dos pacotes dos sistema
 Acessando a máquina via SSH:
 
-    ssh ceberus@127.0.0.1 -p 2222 //sdsds
+    ssh ceberus@127.0.0.1 -p 2222
     
-Logando como root:
+####Adicionao o usuário "cerberus" ao grupo :
 
     su - # sdfsdfs
