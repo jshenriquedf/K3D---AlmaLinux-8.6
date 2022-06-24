@@ -55,15 +55,14 @@ ignoreboth: é usado quando queremos usar tanto ignorespace quanto ignoreups.
 
     HISTCONTROL=ignoreboth      # O mesmo que: HISTCONTROL=ignorespace:ignoredups
 
-
-* Para uma configuração sistemática
+Para uma configuração sistemática
 Adicione as alterações no final do arquivo /etc/profile ou do arquivo /etc/bashrc.
 
     export HISTSIZE=1000
     export HISTFILESIZE=200000
     export HISTCONTROL=ignoreboth
 
-* Para configurar por perfil:
+Para configurar por perfil:
 Adicione as alterações no final de um dos arquivos ~/.bashrc, ou ~/.profile, ou ~/.bash_profile, localizados no path, /home/<user>/<filename>, no perfil do usuário desejado, usando seu editor de texto preferido.
 
     HISTCONTROL=ignoreboth
