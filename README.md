@@ -11,8 +11,10 @@ Acessando a máquina via SSH:
 ###Adicionao o usuário "cerberus" ao grupo :
 Logue como root:
 
-    su - # sdfsdfs
+    su - 
 
 Verificando os grupos pertencentes ao usuário "Cerberus":
     
     groups cerberus
+    # ou
+    id -nG cerberus
