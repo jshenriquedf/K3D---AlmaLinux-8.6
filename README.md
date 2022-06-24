@@ -5,7 +5,9 @@ Para esse ambiente de teste, foi utilizado o VirtualBox com redirecionamento de 
 ## Configurações básicas após intalação
 ### Atualização dos pacotes dos sistema
 Acessando a máquina via SSH:
+
     ssh ceberus@127.0.0.1 -p 2222
     
 Logando como root:
+
     su -
